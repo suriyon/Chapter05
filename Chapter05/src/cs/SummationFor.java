@@ -11,8 +11,10 @@ public class SummationFor {
 		System.out.println("Increment\nSummation 1-10 : " + sum);
 		
 		sum = 0;
-		for(int i=10;i>0;i--) {
+		int i=10;
+		for(;i>0;) {
 			sum = sum+i;
+			i--;
 			//System.out.println("i = " + i + " sum = " + sum);
 		}
 		System.out.println("Decrement\nSummation 10-1 : " + sum);

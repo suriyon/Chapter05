@@ -25,7 +25,7 @@ public class SummationAToB {
 			for(int i=a;i<=b;i++) {
 				sum = sum+i;
 			}
-			System.out.println("Summation " + a + " - " + b + " : " + sum);
+			System.out.println("Summation " + a + " to " + b + " : " + sum);
 		} catch (NumberFormatException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
